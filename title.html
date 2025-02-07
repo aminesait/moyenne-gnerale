@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="title.css">
+    <title>Calcul de la Moyenne Pondérée</title>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Calcul de la Moyenne Pondérée</h2>
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Module</th>
+                        <th>Coefficient</th>
+                        <th>Examen (/20)</th>
+                        <th>Test (/20)</th>
+                    </tr>
+                </thead>
+                <tbody id="modulesTable"></tbody>
+            </table>
+        </div>
+
+        <button class="btn" onclick="calculerMoyenne()">
+            <span class="btnInner">Calculer la Moyenne</span>
+        </button>
+        <p id="result"></p>
+    </div>
+
+    <script src="title.js"></script>
+
+</body>
+</html>
